@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>testimonial for web dev</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="testimonials">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="card">
+                        <div class="layer"></div>
+                        <div class="content">
+                            <p>
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae repellendus vel recusandae fuga fugit omnis nam? Tempora nihil quasi asperiores suscipit.
+                            </p>
+                            <div class="imgPx">
+                                <img src="images/ak.jpg" />
+                            </div>
+
+                            <div class="details">
+                                <h2>Praveen<br /><span>CEO@TankiCleaner</span></h2>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="card">
+                        <div class="layer"></div>
+                        <div class="content">
+                            <p>
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae repellendus vel recusandae fuga fugit omnis nam? Tempora nihil quasi asperiores suscipit.
+                            </p>
+                            <div class="imgPx">
+                                <img src="images/dk.jpg" />
+                            </div>
+                            <div class="details">
+                                <h2>Ashwani<br /><span>CEO@TankiCleaner</span></h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="card">
+                        <div class="layer"></div>
+                        <div class="content">
+                            <p>
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae repellendus vel recusandae fuga fugit omnis nam? Tempora nihil quasi asperiores suscipit.
+                            </p>
+                            <div class="imgPx">
+                                <img src="images/ck.jpg" />
+                            </div>
+                            <div class="details">
+                                <h2>Kartikey<br /><span>CEO@TankiCleaner</span></h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="card">
+                        <div class="layer"></div>
+                        <div class="content">
+                            <p>
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae repellendus vel recusandae fuga fugit omnis nam? Tempora nihil quasi asperiores suscipit.
+                            </p>
+                            <div class="imgPx">
+                                <img src="images/pk.jpg" />
+                            </div>
+                            <div class="details">
+                                <h2>Abhishek<br /><span>CEO@TankiCleaner</span></h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".swiper-container", {
+            effect: "coverflow",
+            grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: "auto",
+            coverflowEffect: {
+                rotate: 50,
+                stretch: 0,
+                depth: 100,
+                modifier: 1,
+                slideShadows: true,
+            },
+            loop: true,
+            pagination: {
+                el: ".swiper-pagination",
+            },
+        });
+    </script>
+</body>
+
+</html>
